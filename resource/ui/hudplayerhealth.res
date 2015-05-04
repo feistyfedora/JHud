@@ -12,7 +12,7 @@
 		"xpos"			"32"	[$X360]
 		"ypos"			"r144"	[$X360]
 		"zpos"			"2"
-		"wide"			"250"
+		"wide"			"300"
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"	
@@ -75,20 +75,40 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"200"
+		"xpos"			"175"
 		"xpos_minmode"	"61"
-		"ypos"			"52"	[$WIN32]
+		"ypos"			"35"	[$WIN32]
 		"ypos"			"55"	[$X360]
 		"zpos"			"5"
-		"wide"			"50"
-		"tall"			"18"
+		"wide"			"100"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"Bikoreg25"
+		"font"			"Bikoreg48"
 		"fgcolor"		"255 255 255 255"
-	}								
+	}
+	
+	"PlayerStatusHealthValueShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueShadow"
+		"xpos"			"177"
+		"xpos_minmode"	"61"
+		"ypos"			"37"	[$WIN32]
+		"ypos"			"55"	[$X360]
+		"zpos"			"4"
+		"wide"			"100"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"Bikoreg48"
+		"fgcolor"		"0 0 0 255"
+	}
+	
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"

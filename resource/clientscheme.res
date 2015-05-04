@@ -2395,7 +2395,8 @@ Scheme
 				"additive"	"0"
 			}
 		}
-		
+///// This starts the installation of my custom fonts ////////
+
 		Bikoreg15
 		{
 			"1"
@@ -2429,12 +2430,100 @@ Scheme
 			}
 		}
 		
+		Bikoreg35
+		{
+			"1"
+			{
+				"name" "Biko"
+				"tall"		"35"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Bikoreg48
+		{
+			"1"
+			{
+				"name" "Biko"
+				"tall"		"48"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Bikoreg60
+		{
+			"1"
+			{
+				"name" "Biko"
+				"tall"		"60"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
 		Bikobold15
 		{
 			"1"
 			{
 				"name" "Biko-Bold"
 				"tall"		"15"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Bikobold20
+		{
+			"1"
+			{
+				"name" "Biko-Bold"
+				"tall"		"20"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Bikobold25
+		{
+			"1"
+			{
+				"name" "Biko-Bold"
+				"tall"		"25"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Bikobold35
+		{
+			"1"
+			{
+				"name" "Biko-Bold"
+				"tall"		"35"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Bikobold48
+		{
+			"1"
+			{
+				"name" "Biko-Bold"
+				"tall"		"48"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Bikobold60
+		{
+			"1"
+			{
+				"name" "Biko-Bold"
+				"tall"		"60"
 				"weight"	"500"
 				"antialias" "1"
 			}
@@ -2451,12 +2540,122 @@ Scheme
 			}
 		}
 		
+		Comicnsans20
+		{
+			"1"
+			{
+				"name" "ComicNeueSansID"
+				"tall"		"20"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Comicnsans25
+		{
+			"1"
+			{
+				"name" "ComicNeueSansID"
+				"tall"		"25"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Comicnsans35
+		{
+			"1"
+			{
+				"name" "ComicNeueSansID"
+				"tall"		"35"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Comicnsans48
+		{
+			"1"
+			{
+				"name" "ComicNeueSansID"
+				"tall"		"15"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Comicnsans60
+		{
+			"1"
+			{
+				"name" "ComicNeueSansID"
+				"tall"		"60"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
 		Fishfingerslight15
 		{
 			"1"
 			{
 				"name" "FISHfingers Light"
 				"tall"		"15"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Fishfingerslight20
+		{
+			"1"
+			{
+				"name" "FISHfingers Light"
+				"tall"		"20"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Fishfingerslight25
+		{
+			"1"
+			{
+				"name" "FISHfingers Light"
+				"tall"		"25"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Fishfingerslight35
+		{
+			"1"
+			{
+				"name" "FISHfingers Light"
+				"tall"		"35"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Fishfingerslight48
+		{
+			"1"
+			{
+				"name" "FISHfingers Light"
+				"tall"		"48"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Fishfingerslight60
+		{
+			"1"
+			{
+				"name" "FISHfingers Light"
+				"tall"		"60"
 				"weight"	"500"
 				"antialias" "1"
 			}
@@ -2473,12 +2672,122 @@ Scheme
 			}
 		}
 		
+		Fishfingersreg20
+		{
+			"1"
+			{
+				"name" "FISHfingers"
+				"tall"		"20"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Fishfingersreg25
+		{
+			"1"
+			{
+				"name" "FISHfingers"
+				"tall"		"25"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Fishfingersreg35
+		{
+			"1"
+			{
+				"name" "FISHfingers"
+				"tall"		"35"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Fishfingersreg48
+		{
+			"1"
+			{
+				"name" "FISHfingers"
+				"tall"		"48"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Fishfingersreg60
+		{
+			"1"
+			{
+				"name" "FISHfingers"
+				"tall"		"60"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
 		Robotoreg15
 		{
 			"1"
 			{
 				"name" "Roboto Regular"
 				"tall"		"15"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Robotoreg20
+		{
+			"1"
+			{
+				"name" "Roboto Regular"
+				"tall"		"20"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Robotoreg25
+		{
+			"1"
+			{
+				"name" "Roboto Regular"
+				"tall"		"25"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Robotoreg35
+		{
+			"1"
+			{
+				"name" "Roboto Regular"
+				"tall"		"35"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Robotoreg48
+		{
+			"1"
+			{
+				"name" "Roboto Regular"
+				"tall"		"48"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Robotoreg60
+		{
+			"1"
+			{
+				"name" "Roboto Regular"
+				"tall"		"60"
 				"weight"	"500"
 				"antialias" "1"
 			}
@@ -2495,12 +2804,122 @@ Scheme
 			}
 		}
 		
+		Robotothin20
+		{
+			"1"
+			{
+				"name" "Roboto Thin"
+				"tall"		"20"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Robotothin25
+		{
+			"1"
+			{
+				"name" "Roboto Thin"
+				"tall"		"25"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Robotothin35
+		{
+			"1"
+			{
+				"name" "Roboto Thin"
+				"tall"		"35"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Robotothin48
+		{
+			"1"
+			{
+				"name" "Roboto Thin"
+				"tall"		"48"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Robotothin60
+		{
+			"1"
+			{
+				"name" "Roboto Thin"
+				"tall"		"60"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
 		Silverbellybuttonring15
 		{
 			"1"
 			{
 				"name" "Silver Bellybutton Ring Reg"
 				"tall"		"15"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Silverbellybuttonring20
+		{
+			"1"
+			{
+				"name" "Silver Bellybutton Ring Reg"
+				"tall"		"20"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Silverbellybuttonring25
+		{
+			"1"
+			{
+				"name" "Silver Bellybutton Ring Reg"
+				"tall"		"25"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Silverbellybuttonring35
+		{
+			"1"
+			{
+				"name" "Silver Bellybutton Ring Reg"
+				"tall"		"35"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Silverbellybuttonring48
+		{
+			"1"
+			{
+				"name" "Silver Bellybutton Ring Reg"
+				"tall"		"48"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Silverbellybuttonring60
+		{
+			"1"
+			{
+				"name" "Silver Bellybutton Ring Reg"
+				"tall"		"60"
 				"weight"	"500"
 				"antialias" "1"
 			}
