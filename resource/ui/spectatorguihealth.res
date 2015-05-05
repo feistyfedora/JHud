@@ -78,9 +78,10 @@
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"18"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"textAlignment"	"center"	
+		"font" 			"Bikoreg15"
 	}
 	"PlayerStatusPlayerLevel"
 	{
@@ -93,7 +94,7 @@
 		"zpos"			"5"
 		"wide"			"16"
 		"tall"			"12"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"font"			"ScoreboardVerySmall"

@@ -15,57 +15,38 @@
 	{
 	}
 	"topbar"
-	{
-		"ControlName"		"Panel"
-		"fieldName"		"TopBar"
-		"xpos"			"0"
-		"ypos"			"0"
-		"tall"			"84"	[$WIN32]
-		"tall_minmode"			"20"	[$WIN32]
-		"tall"			"104"	[$X360]		
-		"wide"			"f0"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-	}
-	"BottomBar"
-	{
+	  {
+		"ControlName"	"Panel"
+		"fieldName"	 "TopBar"
+		"xpos"	 "999999"
+		"ypos"	 "999999"
+		"wide"	 "0"
+		"tall"	 "0"
+		"visible"	 "0"
+		"enabled"	 "0"
+	  }
+		"BottomBar"
+	  {
 		"ControlName"	"Frame"
-		"fieldName"		"BottomBar"
-		"xpos"			"0"
-		"ypos"			"r70"	[$WIN32]
-		"ypos"			"r90"	[$X360]		
-		"ypos_minmode"	"r20"
-		"tall"			"70"	[$WIN32]
-		"tall_minmode"	"0"		
-		"tall"			"90"	[$X360]		
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"0"
-		"tabPosition"		"0"
-	}
-	"bottombarblank"
-	{
-		"ControlName"		"Panel"
-		"fieldName"		"bottombarblank"
-		"xpos"			"0"
-		"ypos"			"r70"	[$WIN32]
-		"ypos"			"r90"	[$X360]		
-		"ypos_minmode"	"r0"
-		"tall"			"70"	[$WIN32]		// this needs to match the size of BottomBar
-		"tall_minmode"	"0"		
-		"tall"			"90"	[$X360]		
-		"wide"			"f0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"visible_minmode"		"0"
-		"enabled"		"1"
-		"tabPosition"		"0"
-	}
+		"fieldName"	 "BottomBar"
+		"xpos"	 "999999"
+		"ypos"	 "999999"
+		"wide"	 "0"
+		"tall"	 "0"
+		"visible"	 "0"
+		"enabled"	 "0"
+	  }
+		"bottombarblank"
+	  {
+		"ControlName"	 "Panel"
+		"fieldName"	 "bottombarblank"
+		"xpos"	 "999999"
+		"ypos"	 "999999"
+		"wide"	 "0"
+		"tall"	 "0"
+		"visible"	 "0"
+		"enabled"	 "0"
+	  }
 	"ReinforcementsLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -113,15 +94,15 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"HudFontSmall"
+		"font"			"Bikoreg25"
 		"font_hidef"		"HudFontMedium"
-		"xpos"			"r260"	[$WIN32]
-		"ypos"			"16"	[$WIN32]
+		"xpos"			"r255"	[$WIN32]
+		"ypos"			"0"	[$WIN32]
 		"xpos"			"r285"	[$X360]
 		"ypos"			"32"	[$X360]
 		"wide"			"240"	[$WIN32]
 		"wide"			"220"	[$X360]
-		"tall"			"20"
+		"tall"			"50"
 		"tall_hidef"		"30"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -169,12 +150,12 @@
 		"ypos"			"10"	[$WIN32]
 		"xpos"			"53"	[$X360]
 		"ypos"			"40"	[$X360]
-		"wide"			"60"	[$WIN32]
+		"wide"			"0"	[$WIN32]
 		"wide"			"60"	[$X360]
-		"tall"			"20"
+		"tall"			"0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
+		"visible"		"0"	[$WIN32]
 		"visible_minmode"		"0"
 		"visible"		"0"	[$X360]
 		"enabled"		"1"
@@ -191,12 +172,12 @@
 		"ypos"			"10"	[$WIN32]
 		"xpos"			"128"	[$X360]
 		"ypos"			"40"	[$X360]		
-		"wide"			"125"	[$WIN32]
+		"wide"			"0"	[$WIN32]
 		"wide"			"95"	[$X360]		
-		"tall"			"20"
+		"tall"			"0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
+		"visible"		"0"	[$WIN32]
 		"visible_minmode"		"0"
 		"visible"		"0"	[$X360]
 		"enabled"		"1"
@@ -212,12 +193,12 @@
 		"ypos"			"20"	[$WIN32]
 		"xpos"			"53"	[$X360]
 		"ypos"			"50"	[$X360]		
-		"wide"			"60"	[$WIN32]
+		"wide"			"0"	[$WIN32]
 		"wide"			"60"	[$X360]
-		"tall"			"20"
+		"tall"			"0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
+		"visible"		"0"	[$WIN32]
 		"visible_minmode"		"0"
 		"visible"		"0"	[$X360]
 		"enabled"		"1"
@@ -233,12 +214,12 @@
 		"ypos"			"20"	[$WIN32]
 		"xpos"			"128"	[$X360]
 		"ypos"			"50"	[$X360]		
-		"wide"			"125"	[$WIN32]
+		"wide"			"0"	[$WIN32]
 		"wide"			"95"	[$X360]	
-		"tall"			"20"
+		"tall"			"0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
+		"visible"		"0"	[$WIN32]
 		"visible_minmode"		"0"
 		"visible"		"0"	[$X360]
 		"enabled"		"1"
@@ -254,9 +235,9 @@
 		"ypos"			"30"	[$WIN32]
 		"xpos"			"53"	[$X360]
 		"ypos"			"60"	[$X360]		
-		"wide"			"60"	[$WIN32]
+		"wide"			"0"	[$WIN32]
 		"wide"			"60"	[$X360]		
-		"tall"			"20"
+		"tall"			"0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"	[$WIN32]
@@ -275,9 +256,9 @@
 		"ypos"			"30"	[$WIN32]
 		"xpos"			"128"	[$X360]
 		"ypos"			"60"	[$X360]		
-		"wide"			"125"	[$WIN32]
+		"wide"			"0"	[$WIN32]
 		"wide"			"95"	[$X360]
-		"tall"			"20"
+		"tall"			"0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"	[$WIN32]
@@ -306,7 +287,7 @@
 		"tall_lodef"	"70"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"visible_minmode"		"0"
 		"enabled"		"1"
 		"labelText"		"%tip%"
@@ -326,7 +307,7 @@
 		"zpos"			"1"
 		"wide"			"270"
 		"tall"			"180"
-		"visible"		"0"
+		"visible"		"1"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
 		
