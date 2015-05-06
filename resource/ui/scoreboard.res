@@ -46,10 +46,8 @@
 		"tall"			"71"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/score_panel_blue_bg"
-		"image_lodef"	"../hud/score_panel_blue_bg_lodef"
 		"scaleImage"		"1"
 		
 		if_mvm
@@ -71,10 +69,8 @@
 		"tall"			"71"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/score_panel_red_bg"
-		"image_lodef"	"../hud/score_panel_red_bg_lodef"
 		"scaleImage"		"1"
 		
 		if_mvm
@@ -98,7 +94,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"TFThinLineBorder"
 		
 		if_mvm
 		{
@@ -110,7 +105,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamLabel"
-		"font"			"ScoreboardTeamNameLarge"
+		"font"			"Bikoreg60"
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"
 		"xpos"			"10" [!$OSX]
@@ -119,7 +114,7 @@
 		"ypos"			"23"	[$WIN32]
 		"ypos"			"29"	[$X360]
 		"wide"			"140"
-		"tall"			"34"
+		"tall"			"38"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -134,7 +129,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScore"
-		"font"			"ScoreboardTeamScore"
+		"font"			"Bikoreg60"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
 		"xpos"			"190"
@@ -160,7 +155,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScoreDropshadow"
-		"font"			"ScoreboardTeamScore"
+		"font"			"Bikoreg60"
 		"fgcolor"		"Black"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
@@ -187,7 +182,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamPlayerCount"
-		"font"			"ScoreboardMedium"
+		"font"			"Bikoreg20"
 		"labelText"		"%blueteamplayercount%"
 		"textAlignment"		"west"
 		"xpos"			"135"
@@ -209,7 +204,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamLabel"
-		"font"			"ScoreboardTeamNameLarge"
+		"font"			"Bikoreg60"
 		"labelText"		"%redteamname%"
 		"textAlignment"		"east"
 		"xpos"			"490" [!$OSX]
@@ -219,7 +214,7 @@
 		"ypos"			"23"	[$WIN32]
 		"ypos"			"29"	[$X360]
 		"wide"			"140"
-		"tall"			"34"
+		"tall"			"42"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -234,7 +229,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScore"
-		"font"			"ScoreboardTeamScore"
+		"font"			"Bikoreg60"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
 		"xpos"			"330"
@@ -260,7 +255,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScoreDropshadow"
-		"font"			"ScoreboardTeamScore"
+		"font"			"Bikoreg60"
 		"fgcolor"		"Black"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
@@ -287,7 +282,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamPlayerCount"
-		"font"			"ScoreboardMedium"
+		"font"			"Bikoreg20"
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"		"east"
 		"xpos"			"375"
@@ -358,6 +353,7 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
+		"font" 			"Bikobold15"
 		"xpos"			"5"
 		"xpos_lodef"	"10"
 		"xpos_hidef"	"30"
@@ -385,6 +381,7 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
+		"font" 			"Bikobold15"
 		"xpos"			"325"
 		"xpos_lodef"	"304"
 		"xpos_hidef"	"334"
@@ -517,9 +514,9 @@
 		"ypos"			"350"	[$WIN32]
 		"ypos"			"275"	[$X360]
 		"zpos"			"3"
-		"wide"			"92"
-		"tall"			"92"
-		"visible"		"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
 		"scaleImage"		"1"	

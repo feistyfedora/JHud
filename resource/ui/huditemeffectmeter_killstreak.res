@@ -5,12 +5,12 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"94"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
+		"xpos"			"r100"	[$WIN32]
+		"ypos"			"0"	[$WIN32]
 		"xpos_minmode"	"68"	[$WIN32]
 		"ypos_minmode"	"r40"	[$WIN32]
-		"wide"			"100"
-		"tall"			"50"
+		"wide"			"150"
+		"tall"			"75"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -24,7 +24,7 @@
 		"zpos"			"0"
 		"wide"			"76"
 		"tall"			"44"
-		"visible"		"1"
+		"visible"		"0"
 		"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_blue"
@@ -39,10 +39,10 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"25"
-		"ypos"					"27"
+		"xpos"					"30"
+		"ypos"					"0"
 		"zpos"					"2"
-		"wide"					"41"
+		"wide"					"60"
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
@@ -53,7 +53,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"Bikoreg15"
 	}
 
 	"ItemEffectMeter"
@@ -82,12 +82,12 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"25"
+		"xpos"					"62"
 		"ypos_minmode"			"18"
-		"ypos"					"10"
+		"ypos"					"-5"
 		"zpos"					"2"
-		"wide"					"40"
-		"tall"					"20"	
+		"wide"					"60"
+		"tall"					"30"	
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
@@ -96,7 +96,7 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMedium"
+		"font"					"Bikoreg35"
 		"font_minmode"			"HudFontSmall"
 	}
 }

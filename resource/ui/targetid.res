@@ -2,30 +2,17 @@
 {
 	"TargetIDBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"TargetIDBG"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"50"
-		"autoResize"		"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_2_lodef"	"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		"teambg_3_lodef"	"../hud/color_panel_blu"
-		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
-			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"fillcolor"		"0 0 0 175"
+
 	}
 	"TargetIDBG_Spec_Blue"
 	{
@@ -34,14 +21,13 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"252"
-		"tall"	 		"30"
+		"wide"			"0"
+		"tall"	 		"0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_blu"
-		"image_lodef"	"../hud/color_panel_blu"
+
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
@@ -56,14 +42,13 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"252"
-		"tall"	 		"30"
+		"wide"			"0"
+		"tall"	 		"0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_red"
-		"image_lodef"	"../hud/color_panel_red"
+
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
@@ -98,7 +83,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"FontStoreOriginalPrice"
+		"font"			"Bikoreg15"
 		"font_minmode"	"DefaultVerySmall"
 		"xpos"			"8"
 		"xpos_minmode"	"30"
@@ -165,7 +150,7 @@
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/leaderboard_streak"
 		"scaleImage"	"1"

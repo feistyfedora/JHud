@@ -171,6 +171,9 @@ Scheme
 		"UpgradeSelectedBg"		"249 138 83 255"
 		"UpgradeDisabledFg"		"64 59 52 255"
 		"UpgradeDisabledBg"		"79 77 68 255"
+		
+    ///////////////// CUSTOM COLORS //////////////////////////
+		"FISHfingersPink"     	"214 19 191 255"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////

@@ -31,7 +31,7 @@
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/ammo_red_bg"
 		"teambg_3"		"../hud/ammo_blue_bg"		
-	}
+	}	
 	"AmmoInClip"
 	{
 		"ControlName"	"CExLabel"
@@ -74,7 +74,7 @@
 		"xpos"			"75"
 		"ypos"			"38"
 		"zpos"			"7"
-		"wide"			"42"
+		"wide"			"53"
 		"tall"			"27"
 		"visible"		"0"
 		"enabled"		"1"
@@ -90,7 +90,7 @@
 		"xpos"			"76"
 		"ypos"			"39"
 		"zpos"			"7"
-		"wide"			"42"
+		"wide"			"53"
 		"tall"			"27"
 		"visible"		"0"
 		"enabled"		"1"
