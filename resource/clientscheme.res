@@ -2927,6 +2927,72 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+		Streetcred15
+		{
+			"1"
+			{
+				"name" "StreetCred-Regular"
+				"tall"		"15"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Streetcred20
+		{
+			"1"
+			{
+				"name" "StreetCred-Regular"
+				"tall"		"20"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Streetcred25
+		{
+			"1"
+			{
+				"name" "StreetCred-Regular"
+				"tall"		"25"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Streetcred35
+		{
+			"1"
+			{
+				"name" "StreetCred-Regular"
+				"tall"		"35"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Streetcred48
+		{
+			"1"
+			{
+				"name" "StreetCred-Regular"
+				"tall"		"48"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Streetcred60
+		{
+			"1"
+			{
+				"name" "StreetCred-Regular"
+				"tall"		"60"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
 	}
 
 	//
@@ -4872,4 +4938,7 @@ Scheme
 		{ 	"font" "resource/fonts/Silver Bellybutton Ring Reg_2.ttf"
 			"name" "Silver Bellybutton Ring Reg"
 		}
+		"15" // Street Cred
+		{	"font" "resource/fonts/street cred.ttf"
+			"name" "StreetCred-Regular"
 }

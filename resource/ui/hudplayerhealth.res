@@ -70,7 +70,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"Bikoreg48"
+		"font"			"Streetcred48"
 		"fgcolor"		"255 255 255 255"
 	}
 	"PlayerStatusHealthValueShadow"
@@ -86,7 +86,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"Bikoreg48"
+		"font"			"Streetcred48"
 		"fgcolor"		"0 0 0 255"
 	}	
 	"PlayerStatusBleedImage"
