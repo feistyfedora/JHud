@@ -248,7 +248,7 @@
 
 	"HudTournamentBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"HudTournamentBG"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -259,13 +259,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_brown"
+		"fillcolor" 	"214 19 191 50"
 
-		"src_corner_height"	"23"				// pixels inside the image
-		"src_corner_width"	"23"
-		
-		"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"8"	
 		
 		if_mvm
 		{
@@ -326,7 +321,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentBLUELabel"
-		"font"			"HudFontSmallest"
+		"font"			"FISHfingersreg15"
 		"xpos"			"12"
 		"ypos"			"24"
 		"zpos"			"1"
@@ -349,7 +344,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentBLUEStateLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"FISHfingersreg15"
 		"xpos"			"56"
 		"ypos"			"24"
 		"zpos"			"1"
@@ -399,7 +394,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentREDLabel"
-		"font"			"HudFontSmallest"
+		"font"			"FISHfingersreg15"
 		"xpos"			"175"
 		"ypos"			"24"
 		"zpos"			"1"
@@ -422,7 +417,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentREDStateLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"FISHfingersreg15"
 		"xpos"			"130"
 		"ypos"			"24"
 		"zpos"			"1"
@@ -445,13 +440,13 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentConditionLabel"
-		"font"			"TFFontSmall"
+		"font"			"FISHfingersreg15"
 		"fgcolor"		"TanLight"
 		"xpos"			"8"
-		"ypos"			"42"
+		"ypos"			"39"
 		"zpos"			"1"
 		"wide"			"250"
-		"tall"			"35"
+		"tall"			"40"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -468,10 +463,10 @@
 
 	"HudTournamentBGHelp"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"HudTournamentBGHelp"
 		"xpos"			"0"
-		"ypos"			"51"
+		"ypos"			"55"
 		"zpos"			"-1"
 		"wide"			"250"
 		"tall"			"17"
@@ -479,14 +474,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_brown"
-
-
-		"src_corner_height"	"23"				// pixels inside the image
-		"src_corner_width"	"23"
-		
-		"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"8"	
+		"fillcolor" 	"214 19 191 100"
 		
 		if_mvm
 		{
@@ -497,9 +485,9 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabel"
-		"font"			"TFFontSmall"
+		"font"			"FISHfingersreg15"
 		"xpos"			"0"
-		"ypos"			"54"
+		"ypos"			"58"
 		"wide"			"250"
 		"tall"			"10"
 		"zpos"			"1"

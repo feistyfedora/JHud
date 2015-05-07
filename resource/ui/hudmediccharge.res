@@ -37,7 +37,8 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Bikoreg48"
+		"font"			"FISHfingersreg48"
+		"fgcolor_override" 		"FISHfingersPink"
 	}
 	
 	"ChargeLabelShadow"
@@ -60,7 +61,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Bikoreg48"
+		"font"			"FISHfingersreg48"
 		"fgcolor_override" 		"0 0 0 255"
 	}
 
@@ -106,7 +107,7 @@
 		"enabled"		"1"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor_override" 		"22 166 43 255"
+		"fgcolor_override" 		"FISHfingersPink"
 	}		
 
 	"ChargeMeter1"

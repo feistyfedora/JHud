@@ -30,10 +30,10 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"HudFontMediumSmall"
+			"font"			"FISHfingersreg25"
 			"font_minmode"	"HudFontSmall"
 			"font_lodef"	"HudFontMedium"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"214 19 191 225"
 			"xpos"			"23"
 			"xpos_minmode"	"39"
 			"xpos_hidef"	"114"

@@ -37,18 +37,19 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"BlueScoreBG"
-		"xpos"			"-2"
+		"xpos"			"-6"
 		"xpos_hidef"	"18"
-		"ypos"			"9"
+		"ypos"			"5"
 		"wide"			"324"
 		"wide_lodef"	"284"
 		"wide_hidef"	"294"
 		"tall"			"71"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"		"1"
+		"fillcolor" 	"214 19 191 75"
 		
 		if_mvm
 		{
@@ -59,53 +60,79 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"RedScoreBG"
-		"xpos"			"316"
+		"xpos"			"321"
 		"xpos_lodef"	"276"
 		"xpos_hidef"	"306"
-		"ypos"			"9"
+		"ypos"			"5"
 		"wide"			"324"
 		"wide_lodef"	"284"
 		"wide_hidef"	"294"
 		"tall"			"71"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"		"1"
+		"fillcolor" 	"214 19 191 75"
 		
 		if_mvm
 		{
 			"visible"		"0"
 		}
 	}
-	"MainBG"
+	"MainBluBG"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"MainBG"
-		"xpos"			"0"
+		"ControlName"		"ImagePanel"
+		"fieldName"		"MainBluBG"
+		"xpos"			"5"
 		"xpos_hidef"	"14"
-		"ypos"			"60"
+		"ypos"			"76"
 		"zpos"			"-1"
-		"wide"			"640"
+		"wide"			"310"
 		"wide_lodef"	"570"
 		"wide_hidef"	"590"
-		"tall"			"388"
+		"tall"			"285"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fillcolor" 	"214 19 191 50"
 		
 		if_mvm
 		{
 			"ypos"			"0"
 			"tall"			"448"
 		}
-	}							
+	}
+		"MainRedBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"MainRedBG"
+		"xpos"			"325"
+		"xpos_hidef"	"14"
+		"ypos"			"76"
+		"zpos"			"-1"
+		"wide"			"310"
+		"wide_lodef"	"570"
+		"wide_hidef"	"590"
+		"tall"			"285"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor" 	"214 19 191 50"
+		
+		if_mvm
+		{
+			"ypos"			"0"
+			"tall"			"448"
+		}
+	}
 	"BlueTeamLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamLabel"
-		"font"			"Bikoreg60"
+		"font"			"FISHfingersreg60"
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"
 		"xpos"			"10" [!$OSX]
@@ -129,7 +156,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScore"
-		"font"			"Bikoreg60"
+		"font"			"FISHfingersreg60"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
 		"xpos"			"190"
@@ -155,7 +182,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScoreDropshadow"
-		"font"			"Bikoreg60"
+		"font"			"FISHfingersreg60"
 		"fgcolor"		"Black"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
@@ -182,7 +209,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamPlayerCount"
-		"font"			"Bikoreg20"
+		"font"			"FISHfingersreg20"
 		"labelText"		"%blueteamplayercount%"
 		"textAlignment"		"west"
 		"xpos"			"135"
@@ -204,7 +231,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamLabel"
-		"font"			"Bikoreg60"
+		"font"			"FISHfingersreg60"
 		"labelText"		"%redteamname%"
 		"textAlignment"		"east"
 		"xpos"			"490" [!$OSX]
@@ -229,7 +256,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScore"
-		"font"			"Bikoreg60"
+		"font"			"FISHfingersreg60"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
 		"xpos"			"330"
@@ -255,7 +282,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScoreDropshadow"
-		"font"			"Bikoreg60"
+		"font"			"FISHfingersreg60"
 		"fgcolor"		"Black"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
@@ -282,7 +309,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamPlayerCount"
-		"font"			"Bikoreg20"
+		"font"			"FISHfingersreg20"
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"		"east"
 		"xpos"			"375"
@@ -353,7 +380,7 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
-		"font" 			"Bikobold15"
+		"font" 			"FISHfingersreg15"
 		"xpos"			"5"
 		"xpos_lodef"	"10"
 		"xpos_hidef"	"30"
@@ -381,7 +408,7 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
-		"font" 			"Bikobold15"
+		"font" 			"FISHfingersreg15"
 		"xpos"			"325"
 		"xpos_lodef"	"304"
 		"xpos_hidef"	"334"
@@ -412,10 +439,10 @@
 		"xpos"			"319"
 		"xpos_lodef"	"279"
 		"xpos_hidef"	"309"
-		"ypos"			"70"
+		"ypos"			"6"
 		"zpos"			"2"
 		"wide"			"2"
-		"tall"			"292"
+		"tall"			"366"
 		"tall_lodef"	"206"
 		"tall_hidef"	"212"
 		"autoResize"	"0"
@@ -423,7 +450,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 153"
+		"fillcolor"		"0 0 0 255"
 		"PaintBackgroundType"	"0"
 		
 		if_mvm
@@ -435,7 +462,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Spectators"
-		"font"			"ScoreboardVerySmall"
+		"font"			"FISHfingersreg15"
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
 		"xpos"			"115"
@@ -449,6 +476,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor_override" 	"214 19 191 200"
 		
 		if_mvm
 		{
@@ -459,7 +487,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SpectatorsInQueue"
-		"font"			"ScoreboardVerySmall"
+		"font"			"FISHfingersreg15"
 		"labelText"		"%waitingtoplay%"
 		"textAlignment"		"west"
 		"xpos"			"115"
@@ -473,6 +501,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor_override" 	"214 19 191 200"
 		
 		if_mvm
 		{
@@ -483,12 +512,12 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ShadedBar"
-		"xpos"			"30"
+		"xpos"			"70"
 		"xpos_hidef"	"50"
 		"ypos"			"372"	[$WIN32]
 		"ypos"			"297"	[$X360]
 		"zpos"			"2"
-		"wide"			"580"
+		"wide"			"550"
 		"wide_lodef"	"539"
 		"wide_hidef"	"559"
 		"tall"			"70"
@@ -497,7 +526,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 153"
+		"fillcolor"		"214 19 191 200"
 		"PaintBackgroundType"	"0"
 		
 		if_mvm
@@ -530,7 +559,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"PlayerNameLabel"
-		"font"			"ScoreboardMedium"
+		"font"			"FISHfingersreg25"
 		"labelText"		"%playername%"
 		"textAlignment"		"west"
 		"xpos"			"115"
@@ -553,7 +582,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"mapname"
-		"font"			"ScoreboardMedium"
+		"font"			"FISHfingersreg25"
 		"labelText"		"%mapname%"
 		"textAlignment"	"east"
 		"xpos"			"415"
@@ -590,7 +619,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"127 127 127 153"
+		"fillcolor"		"127 127 127 255"
 		"PaintBackgroundType"	"0"
 		
 		if_mvm
@@ -602,7 +631,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"PlayerScoreLabel"
-		"font"		"ScoreboardMedium"
+		"font"		"FISHfingersreg25"
 		"labelText"		"%playerscore%"
 		"textAlignment"	"east"
 		"xpos"			"440"
@@ -848,6 +877,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		
 		
 		if_mvm
 		{

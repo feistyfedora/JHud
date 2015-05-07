@@ -2,24 +2,20 @@
 {	
 	"TimePanelBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"TimePanelBG"
 		"xpos"			"16"
 		"xpos_minmode"	"35"
-		"xpos_hidef"	"108"
-		"xpos_lodef"	"108"
 		"ypos"			"9"
 		"zpos"			"2"
 		"wide"			"78"
 		"wide_minmode"	"38"
-		"wide_lodef"	"90"
 		"tall"			"33"
 		"tall_minmode"	"23"
-		"tall_lodef"	"38"
 		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/objectives_timepanel_blue_bg"	
-		"scaleImage"		"1"	
+		"enabled"		"1"	
+		"fillcolor" 	"0 0 0 125"
+
 	}
 	"TimePanelProgressBar"
 	{
@@ -41,7 +37,7 @@
 		"enabled"			"1"
 		"scaleImage"			"1"
 		"image"				"../hud/objectives_timepanel_progressbar"
-		"color_active"			"TimerProgress.Active"
+		"color_active"			"214 19 191 200"
 		"color_inactive"		"TimerProgress.InActive"
 		"color_warning"			"TimerProgress.Warning"
 		"percent_warning"		"0.75"
@@ -71,13 +67,13 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubTextTiny"
+		"font"			"FISHfingers15"
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
 	}			
 	"WaitingForPlayersBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"WaitingForPlayersBG"
 		"xpos"			"16"	[$WIN32]
 		"xpos"			"11"	[$X360]
@@ -88,10 +84,10 @@
 		"wide"			"78"
 		"tall"			"20"
 		"tall_minmode"	"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/objectives_timepanel_suddendeath"	
+		"visible"		"1"
+		"enabled"		"1"	
 		"scaleImage"		"1"	
+		"fillcolor" 	"0 0 0 125"
 	}
 	"OvertimeLabel"
 	{
@@ -194,7 +190,7 @@
 		"xpos"			"16"
 		"xpos_hidef"	"0"
 		"xpos_lodef"	"0"
-		"ypos"			"33"
+		"ypos"			"43"
 		"ypos_minmode"	"24"
 		"ypos_hidef"	"41"
 		"ypos_lodef"	"41"
@@ -212,28 +208,27 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubText"
+		"font"			"FISHfingersreg15"
 		"font_minmode"	"ClockSubTextSuddenDeath"
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
 	}	
 	"SetupBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"SetupBG"
-		"xpos"			"16"	[$WIN32]
+		"xpos"			"23"	[$WIN32]
 		"xpos"			"11"	[$X360]
-		"ypos"			"31"
+		"ypos"			"42"
 		"ypos_hidef"	"-100"	//off-screen
 		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
-		"wide"			"78"
+		"wide"			"64"
 		"tall"			"20"
 		"tall_minmode"	"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"		"1"	
+		"fillcolor" 	"0 0 0 175"
 	}
 	"ServerTimeLimitLabel"
 	{

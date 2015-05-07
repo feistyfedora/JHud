@@ -61,7 +61,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"Bikoreg15"
+		"font"			"FISHfingersreg15"
 		"font_minmode"	"TFFontLarge"
 		"xpos"			"8"
 		"xpos_minmode"	"30"
@@ -78,12 +78,13 @@
 		"textAlignment"		"North-West"
 		"dulltext"		"0"
 		"brighttext"		"0"
+		"fgcolor_override" 	"FISHfingersPink"
 	}
 	"TargetDataLabel"
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"Bikoreg15"
+		"font"			"FISHfingersreg15"
 		"font_minmode"	"DefaultVerySmall"
 		"xpos"			"8"
 		"xpos_minmode"	"30"
@@ -102,6 +103,7 @@
 		"textAlignment"		"Left"
 		"dulltext"		"0"
 		"brighttext"		"0"
+		"fgcolor_override" 	"FISHfingersPink"
 	}
 	"SpectatorGUIHealth"
 	{
