@@ -123,6 +123,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
+
 	"TauntCaratLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -130,7 +131,7 @@
 		"font"			"HudFontSmallestBold"
 		"labelText"		">>"
 		"textAlignment"	"west"
-		"xpos"			"c-200"
+		"xpos"			"c-150"
 		"ypos"			"20"
 		"zpos"			"1"
 		"wide"			"20"
@@ -148,28 +149,11 @@
 		"font"			"HudFontMediumBold"
 		"labelText"		"#TF_Taunt"
 		"textAlignment"	"west"
-		"xpos"			"c-180"
+		"xpos"			"c-130"
 		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"240"
 		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-	}
-	"CurrentlyEquippedLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CurrentlyEquippedLabel"
-		"font"			"HudFontSmallestBold"
-		"labelText"		"#CurrentlyEquipped"
-		"textAlignment"	"south-west"
-		"xpos"			"c-55"
-		"ypos"			"22"
-		"zpos"			"1"
-		"wide"			"180"
-		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -316,7 +300,7 @@
 		"tall"			"240"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"	"south"
@@ -463,6 +447,7 @@
 		"bgcolor_override"		"69 64 63 255"
 		"PaintBackgroundType"	"2"
 	}
+
 	"TauntHintLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -481,12 +466,13 @@
 		"textAlignment"	"east"
 		"centerwrap"	"1"
 	}
+
 	"CharacterLoadoutButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterLoadoutButton"
 		"labelText"		""
-		"xpos"			"c-160"
+		"xpos"			"c-25"
 		"ypos"			"c90"
 		"zpos"			"2"
 		"wide"			"25"
@@ -524,7 +510,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TauntLoadoutButton"
 		"labelText"		""
-		"xpos"			"c-133"
+		"xpos"			"c2"
 		"ypos"			"c90"
 		"zpos"			"2"
 		"wide"			"25"
