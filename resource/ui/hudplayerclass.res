@@ -129,12 +129,12 @@
 		
 		"xpos"			"-2"	[$WIN32]
 		"xpos_minmode"	"0"	[$WIN32]
-		"ypos"			"r214"	[$WIN32]
+		"ypos"			"r275" [$WIN32]
 		"ypos_minmode"	"r88"	[$WIN32]
 		"zpos"			"2"		
-		"wide"			"100"
+		"wide"			"110"
 		"wide_minmode"	"52"
-		"tall"			"205"
+		"tall"			"300"
 		"tall_minmode"	"102"
 		"autoResize"	"0"
 		"pinCorner"		"0"

@@ -22,9 +22,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/winpanel_blue_bg_team"
-			"image_lodef"	"../hud/winpanel_blue_bg_team_lodef"
-			"scaleImage"		"1"
+			"scaleImage"	"1"
+			"fillcolor" 	"0 0 0 125"
 		}
 		"RedScoreBG"
 		{
@@ -38,15 +37,14 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/winpanel_red_bg_team"
-			"image_lodef"	"../hud/winpanel_red_bg_team_lodef"
-			"scaleImage"		"1"
+			"scaleImage"	"1"
+			"fillcolor" 	"0 0 0 125"
 		}
 		"BlueTeamLabel"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamLabel"
-			"font"			"ScoreboardTeamName"
+			"font"			"FISHfingersreg25"
 			"labelText"		"%blueteamname%"
 			"textAlignment"		"west"
 			"xpos"			"56"
@@ -59,12 +57,13 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			fgcolor_override" "FISHfingersPink"
 		}							
 		"BlueTeamScore"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScore"
-			"font"			"ScoreboardTeamScore"
+			"font"			"FISHfingersreg25"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"			"80"
@@ -78,6 +77,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			fgcolor_override" "FISHfingersPink"
 		}
 		"BlueTeamScoreDropshadow"
 		{
@@ -103,7 +103,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamLabel"
-			"font"			"ScoreboardTeamName"
+			"font"			"FISHfingersreg25"
 			"labelText"		"%redteamname%"
 			"textAlignment"		"east"
 			"xpos"			"224"
@@ -116,12 +116,13 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			fgcolor_override" "FISHfingersPink"
 		}							
 		"RedTeamScore"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScore"
-			"font"			"ScoreboardTeamScore"
+			"font"			"FISHfingersreg25"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"			"202"
@@ -135,6 +136,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			fgcolor_override" "FISHfingersPink"
 		}
 		"RedTeamScoreDropshadow"
 		{

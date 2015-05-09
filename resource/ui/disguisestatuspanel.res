@@ -28,9 +28,31 @@
 			"angles_z"		"0"
 		}
 	}
+	"DisguiseStatusTeamIndicator"
+	{
+		"ControlName" 		"CTFImagePanel"
+		"fieldName" 		"DisguiseStatusTeamIndicator"
+		"xpos"			"10"
+		"ypos"			"30"
+		"wide" 			"5"
+		"tall" 			"32"
+		"visible" 		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_blu"
+		"teambg_3"		"../hud/color_panel_red"
+		
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
+			
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
+	}
 	"DisguiseStatusBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"DisguiseStatusBG"
 		"xpos"			"10"
 		"xpos_minmode"			"10"
@@ -45,27 +67,14 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_2_lodef"	"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		"teambg_3_lodef"	"../hud/color_panel_blu"
-		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
-			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"fillcolor" 	"125 125 125 125"
 	}
 
 	"DisguiseNameLabel"
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"DisguiseNameLabel"
-		"font"			"HudFontMediumSmallSecondary"
-		"font_minmode"	"TFFontMedium"
+		"font"			"FISHfingersreg20"
 		"xpos"			"52"
 		"xpos_minmode"	"34"
 		"ypos"			"31"
@@ -79,16 +88,14 @@
 		"enabled"		"1"
 		"labelText"		"%disguisename%"
 		"textAlignment"		"North-West"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		"fgcolor_override" 	"FISHfingersPink"
 	}
 	
 	"WeaponNameLabel"
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"WeaponNameLabel"
-		"font"			"HUDFontSmall"
-		"font_minmode"	"TFFontMedium"
+		"font"			"FISHfingersreg15"
 		"xpos"			"52"
 		"xpos_minmode"	"34"
 		"ypos"			"45"
@@ -104,13 +111,14 @@
 		"textAlignment"		"North-West"
 		"dulltext"		"0"
 		"brighttext"		"0"
+		"fgcolor_override" 	"FISHfingersPink"
 	}
 	
 	"SpectatorGUIHealth"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"20"
+		"xpos"			"15"
 		"xpos_minmode"	"10"
 		"ypos"			"30"
 		"ypos_minmode"	"45"
@@ -122,7 +130,7 @@
 		"HealthDeathWarning"	"0.49"
 		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
-		"TextColor"		"HudOffWhite"
+		"TextColor"		"125 125 125 255"
 	}	
 	
 }
