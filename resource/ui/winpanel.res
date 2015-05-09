@@ -31,7 +31,7 @@
 			"fieldName"		"RedScoreBG"
 			"xpos"			"180"
 			"ypos"			"10"
-			"wide"			"150"
+			"wide"			"140"
 			"tall"			"50"
 			"autoResize"	"0"
 			"pinCorner"		"0"
