@@ -7,9 +7,8 @@
 		"xpos"			"12"
 		"ypos"			"6"
 		"zpos"			"0"
-		"wide"			"76"
-		"wide_minmode"	"56"
-		"tall"			"38"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"visible_minmode"	"0"
 		"enabled"		"1"
@@ -47,7 +46,7 @@
 	{	
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ChargeMeter"
-		"font"					"Default"
+		"font"					"FISHFingersreg20"
 		"xpos"					"25"
 		"ypos"					"23"
 		"ypos_minmode"			"0"
@@ -63,6 +62,7 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
+		"fgcolor_override" 		"FISHFingersPink"
 	}				
 		
 	"PipesPresentPanel"
@@ -87,8 +87,8 @@
 			"wide_minmode"	"14"
 			"tall"			"20"
 			"tall_minmode"	"14"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"../hud/ico_stickybomb_red"
 			"scaleImage"	"1"
 			"teambg_2"		"../hud/ico_stickybomb_red"
@@ -116,9 +116,8 @@
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"HudFontMedium"
-			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMediumBig"
+			"font"			"FISHFingersreg20"
+			"fgcolor" 	"FISHfingersPink"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -141,10 +140,8 @@
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"HudFontMedium"
-			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMediumBig"
-			"fgcolor"		"black"
+			"font"			"FISHfingersreg20"
+			"fgcolor"		"0 0 0 255"
 		}		
 	}
 	
@@ -170,8 +167,8 @@
 			"wide_minmode"	"14"
 			"tall"			"20"
 			"tall_minmode"	"14"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"../hud/ico_stickybomb_red_faded"
 			"scaleImage"	"1"
 			"teambg_2"		"../hud/ico_stickybomb_red_faded"
@@ -199,9 +196,8 @@
 			"textAlignment"	"west"
 			"dulltext"		"1"
 			"brighttext"	"0"
-			"font"			"HudFontMedium"
-			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMediumBig"
+			"font"			"FISHfingersreg20"
+			"fgcolor" 		"FISHfingersPink"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -224,10 +220,8 @@
 			"textAlignment"	"west"
 			"dulltext"		"1"
 			"brighttext"	"0"
-			"font"			"HudFontMedium"
-			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMediumBig"
-			"fgcolor"		"black"
+			"font"			"FISHfingersreg20"
+			"fgcolor"		"0 0 0 255"
 		}			
 	}				
 }

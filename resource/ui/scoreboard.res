@@ -190,7 +190,7 @@
 		"xpos_lodef"	"171"
 		"xpos_hidef"	"191"
 		"ypos"			"13" 
-		"zpos"			"4"
+		"zpos"			"2"
 		"wide"			"120"
 		"tall"			"55"
 		"tall_hidef"	"75"
@@ -290,7 +290,7 @@
 		"xpos_lodef"	"311"
 		"xpos_hidef"	"351"
 		"ypos"			"13"
-		"zpos"			"4"
+		"zpos"			"2"
 		"wide"			"120"
 		"tall"			"55"
 		"tall_hidef"	"75"
@@ -501,7 +501,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" 	"214 19 191 200"
+		"fgcolor_override" 	"0 0 0 200"
 		
 		if_mvm
 		{
@@ -526,7 +526,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"214 19 191 200"
+		"fillcolor"		"135 129 128 200"
 		"PaintBackgroundType"	"0"
 		
 		if_mvm
@@ -951,7 +951,25 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}												
+		}	
+			"ColoninK/D"
+		{
+			"ControlName" 	"CexLabel"
+			"fieldName" 	"ColoninK/D"
+			"font"			"FISHfingersreg35"
+			"labelText" 	":"
+			"textAlignment"		"east"
+			"xpos"			"64"
+			"ypos"			"8"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"25"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+		}
+		
 		"Kills"
 		{
 			"ControlName"		"CExLabel"
@@ -968,7 +986,25 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}						
+		}
+			"KillCountinK/D"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"KillCountinK/D"
+			"font"			"FISHfingersreg35"
+			"labelText"		"%kills%"
+			"textAlignment"		"west"
+			"xpos"			"80"
+			"ypos"			"10"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"25"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+		}
+		
 		"Deaths"
 		{
 			"ControlName"		"CExLabel"
@@ -986,6 +1022,24 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}	
+			"DeathCountinK/D"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"Deaths"
+			"font"			"FISHfingersreg35"
+			"labelText"		"%deaths%"
+			"textAlignment"		"west"
+			"xpos"			"110"
+			"ypos"			"10"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"25"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+		}
+		
 		"GameType"
 		{
 			"ControlName"	"CExLabel"

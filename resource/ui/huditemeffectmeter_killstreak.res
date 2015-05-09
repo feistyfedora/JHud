@@ -6,7 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r100"	[$WIN32]
-		"ypos"			"0"	[$WIN32]
+		"ypos"			"448"	[$WIN32]
 		"xpos_minmode"	"68"	[$WIN32]
 		"ypos_minmode"	"r40"	[$WIN32]
 		"wide"			"150"
@@ -40,7 +40,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"30"
-		"ypos"					"0"
+		"ypos"					"10"
 		"zpos"					"2"
 		"wide"					"60"
 		"tall"					"15"

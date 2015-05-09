@@ -96,8 +96,8 @@
 		"fieldName"		"MapLabel"
 		"font"			"Bikoreg25"
 		"font_hidef"		"HudFontMedium"
-		"xpos"			"r255"	[$WIN32]
-		"ypos"			"0"	[$WIN32]
+		"xpos"			"-50"	[$WIN32]
+		"ypos"			"-5"	[$WIN32]
 		"xpos"			"r285"	[$X360]
 		"ypos"			"32"	[$X360]
 		"wide"			"240"	[$WIN32]

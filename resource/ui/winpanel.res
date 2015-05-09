@@ -16,7 +16,7 @@
 			"fieldName"		"BlueScoreBG"
 			"xpos"			"0"
 			"ypos"			"10"
-			"wide"			"240"
+			"wide"			"190"
 			"tall"			"50"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -29,9 +29,9 @@
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"RedScoreBG"
-			"xpos"			"140"
+			"xpos"			"180"
 			"ypos"			"10"
-			"wide"			"240"
+			"wide"			"150"
 			"tall"			"50"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -57,7 +57,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			fgcolor_override" "FISHfingersPink"
+			"fgcolor_override" "FISHfingersPink"
 		}							
 		"BlueTeamScore"
 		{
@@ -77,19 +77,19 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			fgcolor_override" "FISHfingersPink"
+			"fgcolor_override" "FISHfingersPink"
 		}
 		"BlueTeamScoreDropshadow"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScoreDropshadow"
-			"font"			"ScoreboardTeamScore"
-			"fgcolor"		"Black"
+			"font"			"FISHfingersreg25"
+			"fgcolor"		"0 0 0 255"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"			"81"
 			"ypos"			"1"
-			"zpos"			"3"
+			"zpos"			"4"
 			"wide"			"100"
 			"tall"			"50"
 			"tall_lodef"	"80"
@@ -116,7 +116,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			fgcolor_override" "FISHfingersPink"
+			"fgcolor_override" "FISHfingersPink"
 		}							
 		"RedTeamScore"
 		{
@@ -136,19 +136,19 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			fgcolor_override" "FISHfingersPink"
+			"fgcolor_override" "FISHfingersPink"
 		}
 		"RedTeamScoreDropshadow"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScoreDropshadow"
-			"font"			"ScoreboardTeamScore"
-			"fgcolor"		"Black"
+			"font"			"FISHfingersreg25"
+			"fgcolor"		"0 0 0 255"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"			"203"
 			"ypos"			"1"
-			"zpos"			"3"
+			"zpos"			"4"
 			"wide"			"100"
 			"tall"			"50"
 			"tall_lodef"	"80"
@@ -169,15 +169,15 @@
 		"zpos"			"0"
 		"wide"			"496"
 		"tall"			"226"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"		"1"	
 	}
 	"WinningTeamLabel"
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabel"
-		"font"			"ScoreboardTeamName"
+		"font"			"FISHfingersreg25"
 		"xpos"			"0"
 		"ypos"			"72"
 		"zpos"			"1"
@@ -191,13 +191,14 @@
 		"textAlignment"		"Center"
 		"dulltext"		"0"
 		"brighttext"		"0"
+		"fgcolor_override" 	"FISHfingersPink"
 	}
 	"WinningTeamLabelDropshadow"
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabelDropshadow"
-		"font"			"ScoreboardTeamName"
-		"fgcolor"		"black"
+		"font"			"FISHfingersreg25"
+		"fgcolor"		"0 0 0 255"
 		"xpos"			"1"
 		"ypos"			"73"
 		"zpos"			"1"
@@ -216,7 +217,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"AdvancingTeamLabel"
-		"font"			"ScoreboardMedium"
+		"font"			"FISHfingersreg25"
 		"xpos"			"0"
 		"ypos"			"72"
 		"zpos"			"1"
@@ -230,13 +231,14 @@
 		"textAlignment"		"Center"
 		"dulltext"		"0"
 		"brighttext"		"0"
+		"fgcolor_override" 	"FISHfingersPink"
 	}
 	"AdvancingTeamLabelDropshadow"
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"AdvancingTeamLabelDropshadow"
-		"font"			"ScoreboardMedium"
-		"fgcolor"		"black"
+		"font"			"FISHfingersreg25"
+		"fgcolor"		"0 0 0 255"
 		"xpos"			"1"
 		"ypos"			"73"
 		"zpos"			"1"
@@ -255,7 +257,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinReasonLabel"
-		"font"			"ScoreboardVerySmall"
+		"font"			"Fishfingersreg15"
 		"xpos"			"0"
 		"ypos"			"89"
 		"zpos"			"1"
@@ -269,12 +271,13 @@
 		"textAlignment"		"Center"
 		"dulltext"		"0"
 		"brighttext"		"0"
+		"fgcolor_override" 	"FISHfingersPink"
 	}
 	"DetailsLabel"
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"DetailsLabel"
-		"font"			"ScoreboardVerySmall"
+		"font"			"FISHfingersreg15"
 		"xpos"			"12"
 		"ypos"			"101"
 		"zpos"			"1"
@@ -288,6 +291,7 @@
 		"textAlignment"		"Center"
 		"dulltext"		"0"
 		"brighttext"		"0"
+		"fgcolor_override" 	"FISHfingersPink"
 	}
 	"ShadedBar"
 	{
@@ -311,7 +315,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TopPlayerLabel"
-		"font"			"ScoreboardVerySmall"
+		"font"			"FISHfingersreg15"
 		"xpos"			"15"
 		"ypos"			"114"
 		"zpos"			"3"
@@ -325,12 +329,13 @@
 		"textAlignment"		"west"
 		"dulltext"		"0"
 		"brighttext"		"0"
+		"fgcolor_override" 	"FISHfingersPink"
 	}
 	"PointsThisRoundLabel"
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"PointsThisRoundLabel"
-		"font"			"ScoreboardVerySmall"
+		"font"			"FISHfingersreg15"
 		"xpos"			"136"
 		"ypos"			"114"
 		"zpos"			"3"
@@ -344,6 +349,7 @@
 		"textAlignment"		"east"
 		"dulltext"		"0"
 		"brighttext"		"0"
+		"fgcolor_override" 	"FISHfingersPink"
 	}
 	"HorizontalLine"
 	{
@@ -581,7 +587,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakLeaderLabel"
-		"font"			"ScoreboardVerySmall"
+		"font"			"FISHfingersreg15"
 		"xpos"			"15"
 		"ypos"			"195"
 		"zpos"			"3"
@@ -600,7 +606,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakMaxCountLabel"
-		"font"			"ScoreboardVerySmall"
+		"font"			"FISHfingersreg15"
 		"xpos"			"136"
 		"ypos"			"195"
 		"zpos"			"3"

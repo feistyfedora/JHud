@@ -5,16 +5,14 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"x_offset"		"40"
-		"xpos"			"r174"	[$WIN32]
-		"ypos"			"r57"	[$WIN32]
+		"xpos"			"0"	[$WIN32]
 		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos_minmode"	"r68"	[$WIN32]
-		"x_offset_minmode"		"0"	[$WIN32]
+		"ypos"			"r33"	[$WIN32]
+		"ypos_minmode"	"r54"	[$WIN32]
 		"xpos"			"r194"	[$X360]
-		"ypos"			"r124"	[$X360]
-		"wide"			"100"
-		"tall"			"50"
+		"ypos"			"r74"	[$X360]
+		"wide"			"853"
+		"tall"			"75"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -26,8 +24,8 @@
 		"xpos"			"12"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"100"
-		"tall"			"50"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"visible_minmode"	"0"
 		"enabled"		"1"
@@ -50,7 +48,7 @@
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
-		"visible"				"1"
+		"visible"				"0"
 		"visible_minmode"		"1"
 		"ypos_minmode"			"0"
 		"xpos_minmode"			"0"
@@ -69,14 +67,14 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"45"
-		"ypos"					"23"
+		"xpos"					"0"
+		"ypos"					"28"
 		"ypos_minmode"			"0"
 		"xpos_minmode"			"0"
 		"zpos"					"2"
-		"wide"					"30"
+		"wide"					"853"
 		"wide_minmode"			"50"
-		"tall"					"5"				
+		"tall"					"75"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"

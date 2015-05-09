@@ -114,13 +114,14 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubText"
+		"font"			"FISHfingersreg15"
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
+		"fgcolor_override" 	"FISHfingersPink"
 	}			
 	"OvertimeBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"OvertimeBG"
 		"xpos"			"16"	[$WIN32]
 		"xpos"			"11"	[$X360]
@@ -132,9 +133,9 @@
 		"tall"			"20"
 		"tall_minmode"	"0"
 		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/objectives_timepanel_suddendeath"	
+		"enabled"		"1"	
 		"scaleImage"		"1"	
+		"fillcolor" 	"0 0 0 175"
 	}
 	"SuddenDeathLabel"
 	{
