@@ -12,7 +12,7 @@
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
 		"wide"			"853"
-		"tall"			"75"
+		"tall"			"60"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -74,7 +74,7 @@
 		"zpos"					"2"
 		"wide"					"853"
 		"wide_minmode"			"50"
-		"tall"					"80"				
+		"tall"					"60"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
