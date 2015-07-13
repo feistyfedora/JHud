@@ -2,9 +2,9 @@
 {
 	"HudStopWatchBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"HudStopWatchBG"
-		"xpos"			"0"
+		"xpos"			"-5"
 		"ypos"			"5"
 		"zpos"			"-1"
 		"wide"			"125"
@@ -13,14 +13,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_brown"
-
-
-		"src_corner_height"	"23"				// pixels inside the image
-		"src_corner_width"	"23"
-		
-		"draw_corner_width"	"7"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"7"	
+		"fillcolor" 	"0 0 0 200"
 	}
 
 	"StopWatchImageCaptureTime"
@@ -49,17 +42,22 @@
 		"zpos"				"1"
 		"wide"				"110"
 		"tall"				"150"
-		"visible"			"0"
+		"visible"			"1"
 		"enabled"			"1"
-
+		
+		"TimePanelBG"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"TimePanelBG"
+			"visible" 		"0"
+			"enabled" 		"0"
+		}
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"HudFontMediumSmall"
-			"font_minmode"		"HudFontMediumSmall"
-			"font_lodef"		"HudFontMedium"
-			"fgcolor"		"TanLight"
+			"font"			"FISHfingersreg25"
+			"fgcolor"		"255 255 255 255"
 			"xpos"			"23"
 			"xpos_minmode"		"23"
 			"xpos_hidef"		"114"
@@ -68,7 +66,7 @@
 			"ypos_minmode"		"11"
 			"ypos_hidef"		"15"
 			"ypos_lodef"		"18"
-			"zpos"			"3"
+			"zpos"			"5"
 			"wide"			"45"
 			"wide_minmode"		"45"
 			"tall"			"31"
@@ -82,7 +80,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchScoreToBeat"
-		"font"			"HudFontMediumBold"
+		"font"			"FISHfingersreg35"
+		"fgcolor"		"255 255 255 255"
 		"labelText"		"%scoretobeat%"
 		"textAlignment"		"east"
 		"xpos"			"0"
@@ -92,14 +91,15 @@
 		"tall"			"30"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 	}
 	"StopWatchPointsLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchPointsLabel"
-		"font"			"HudFontSmallest"
+		"font"			"FISHfingersreg15"
+		"fgcolor"		"255 255 255 255"
 		"labelText"		"%pointslabel%"
 		"textAlignment"		"east"
 		"xpos"			"0"
@@ -118,7 +118,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchLabel"
-		"font"			"HudFontSmallest"
+		"font"			"FISHfingersreg15"
 		"labelText"		"%stopwatchlabel%"
 		"textAlignment"		"west"
 		"xpos"			"25"
@@ -140,8 +140,8 @@
 		"xpos"			"0"
 		"ypos"			"27"
 		"zpos"			"-1"
-		"wide"			"125"
-		"tall"			"19"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -163,7 +163,7 @@
 		"font"			"ClockSubTextTiny"
 		"labelText"		"%descriptionlabel%"
 		"textAlignment"		"center"
-		"xpos"			"0"
+		"xpos"			"-20"
 		"ypos"			"23"
 		"zpos"			"4"
 		"wide"			"125"

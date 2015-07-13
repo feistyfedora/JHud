@@ -54,7 +54,7 @@
 		"xpos"			"c-300"	[$WIN32]
 		"xpos_minmode"	"c-300"
 		"xpos"			"c-200"	[$X360]
-		"ypos"			"50"	[$WIN32]
+		"ypos"			"62"	[$WIN32]
 		"ypos_minmode"	"3"		[$WIN32]
 		"ypos"			"67"	[$X360]
 		"ypos_hidef"	"79"
@@ -70,7 +70,8 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"HudFontMediumSmallSecondary"
+		"font"			"FISHfingersreg25"
+		"fgcolor_override" 	"255 255 255 255"
 	}
 	"BuyBackLabel"
 	{
@@ -96,12 +97,12 @@
 		"fieldName"		"MapLabel"
 		"font"			"Bikoreg25"
 		"font_hidef"		"HudFontMedium"
-		"xpos"			"-50"	[$WIN32]
+		"xpos"			"0"	[$WIN32]
 		"ypos"			"-5"	[$WIN32]
 		"xpos"			"r285"	[$X360]
 		"ypos"			"32"	[$X360]
 		"wide"			"240"	[$WIN32]
-		"wide"			"220"	[$X360]
+		"wide"			"300"	[$X360]
 		"tall"			"50"
 		"tall_hidef"		"30"
 		"autoResize"		"0"
@@ -119,7 +120,7 @@
 		"xpos"			"c-85"
 		"xpos_hidef"	"c-65"
 		"xpos_lodef"	"40"
-		"ypos"			"68"
+		"ypos"			"80"
 		"ypos_hidef"	"90"
 		"ypos_lodef"	"30"	
 		"wide"			"170"
@@ -130,17 +131,18 @@
 		"zpos"			"2"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
+		"visible"		"0"	[$WIN32]
 		"visible_minmode"		"0"
 		"visible"		"0"	[$X360]
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_ChangeTeam"
-		"textAlignment"		"center"
+		"textAlignment"		"left"
 		"textAlignment_lodef"		"north-west"
-		"font"			"SpectatorKeyHints"
+		"font"			"FISHfingersreg15"
 		"font_hidef"	"HudFontSmallest"
 		"font_lodef"	"HudFontSmall"
 		"wrap_lodef"			"1"
+		"fgcolor_override" 		"FISHfingersPink"
 	}
 	"SwitchCamModeKeyLabel"
 	{
@@ -308,7 +310,7 @@
 		"wide"			"270"
 		"tall"			"180"
 		"visible"		"1"
-		"bgcolor_override"		"255 255 255 0"
+		"bgcolor_override"		"0 0 0 150"
 		"PaintBackgroundType"	"0"
 		
 		"model_xpos"		"10"
@@ -336,12 +338,12 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"DefaultSmall"
+			"font"			"FISHFingersreg15"
 			"xpos"			"10"
 			"ypos"			"3"
 			"zpos"			"1"
 			"wide"			"270"
-			"tall"			"9"
+			"tall"			"12"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"

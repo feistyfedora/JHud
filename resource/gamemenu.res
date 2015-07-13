@@ -12,7 +12,7 @@
 		"label" "#MMenu_PlayMultiplayer" 
 		"command" "quickplay"
 		"subimage" "glyph_multiplayer"
-		"OnlyAtMenu" "1"
+		"OnlyAtMenu" "0"
 	}
 	"QuickplayChangeButton"
 	{
@@ -26,14 +26,14 @@
 		"label" "#MMenu_PlayCoop" 
 		"command" "playpve"
 		"subimage" "glyph_coop"
-		"OnlyAtMenu" "1"
+		"OnlyAtMenu" "0"
 	}
 	"ServerBrowserButton"
 	{
 		"label" "#MMenu_Servers" 
 		"command" "OpenServerBrowser"
 		"subimage" "glyph_server_browser"
-		"OnlyAtMenu" "1"
+		"OnlyAtMenu" "0"
 	} 
 	"ChangeServerButton"
 	{
@@ -66,7 +66,7 @@
 		"label" "#TF_Training"
 		"command" "offlinepractice"
 		"subimage" "glyph_practice"
-		"OnlyAtMenu" "1"
+		"OnlyAtMenu" "0"
 	}
 	
 	// These buttons get positioned by the MainMenuOverride.res	
@@ -74,7 +74,7 @@
 	{
 		"label" "#GameUI_GameMenu_CreateServer"
 		"command" "OpenCreateMultiplayerGameDialog"
-		"OnlyAtMenu" "1"
+		"OnlyAtMenu" "0"
 		"tooltip" "#GameUI_GameMenu_CreateServer"
 	}
 	"GeneralStoreButton"

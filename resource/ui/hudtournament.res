@@ -171,7 +171,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"DefaultSmall"
+				"font"			"FISHfingersreg20"
 				"xpos"			"30"
 				"ypos"			"18"
 				"zpos"			"5"
@@ -182,7 +182,7 @@
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
-				//"fgcolor"		"235 226 202 255"
+				"fgcolor"		"FISHfingersPink"
 			}
 			
 			"chargeamount"

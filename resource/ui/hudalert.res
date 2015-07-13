@@ -2,27 +2,25 @@
 {
 	"HudAlertBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"HudAlertBG"
 		"xpos"			"0"
 		"ypos"			"30"
 		"zpos"			"-1"
 		"wide"			"320"
-		"tall"			"150"
+		"tall"			"100"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/death_panel_blue_bg"
-		"scaleImage"		"1"
-		"teambg_2"		"../hud/death_panel_red_bg"
-		"teambg_3"		"../hud/death_panel_blue_bg"
+		"fillcolor" 	"0 0 0 150"
+
 	}
 	"AlertLabel"
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"AlertLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"FISHFingersreg15"
 		"xpos"			"80"
 		"ypos"			"70"
 		//"ypos_hidef"	"23"

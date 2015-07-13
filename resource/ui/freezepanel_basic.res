@@ -83,7 +83,7 @@
 		}
 		"FreezePanelBG"
 		{
-			"ControlName"		"CTFImagePanel"
+			"ControlName"		"ImagePanel"
 			"fieldName"		"FreezePanelBG"
 			"xpos"			"c-38"
 			"xpos_hidef"		"c25"
@@ -95,7 +95,7 @@
 			"tall"			"48"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/color_panel_blu"
+			"fillcolor" 	"0 0 0 150"
 			"scaleImage"		"1"	
 		}
 
@@ -103,7 +103,7 @@
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"FreezeLabel"
-			"font"			"DefaultSmall"
+			"font"			"FISHfingersreg15"
 			"xpos"			"c2"
 			"xpos_hidef"		"c65"
 			"ypos"			"255"
@@ -126,7 +126,7 @@
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"FreezeLabelKiller"
-			"font"			"HudFontSmall"
+			"font"			"FISHfingersreg15"
 			"xpos"			"c6"			// No avatar image on X360
 			"xpos_hidef"		"c69"
 			"ypos"			"266"
@@ -247,15 +247,15 @@
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 				
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		
 		"FreezeLabel"
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"FreezeLabel"
-			"font"			"DefaultSmall"
+			"font"			"FISHfingersreg15"
 			"xpos"			"40"
 			"ypos"			"162"
 			"zpos"			"1"
@@ -293,7 +293,7 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"FreezeLabelKiller"
-			"font"			"HudFontSmall"
+			"font"			"FISHfingersreg15"
 			"xpos"			"61"
 			"ypos"			"173"
 			"zpos"			"5"

@@ -52,7 +52,7 @@
 		"xpos"			"5"
 		"ypos"			"c-15"
 		"zpos"			"1"
-		"wide"			"80"
+		"wide"			"120"
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
@@ -78,7 +78,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"random"
-		"xpos"				"85"
+		"xpos"				"120"
 		"ypos"				"c150"
 		"zpos"				"6"
 		"wide"				"100"
@@ -147,8 +147,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"fillcolor" 		"0 0 0 150"
-	}
-		
+	}	
 	"Offense"
 	{
 		"ControlName"	"CExLabel"
@@ -768,7 +767,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"85"
+		"xpos"			"120"
 		"ypos"			"c170"
 		"zpos"			"6"
 		"wide"			"100"
@@ -798,7 +797,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"OtherOptionsBG"
-		"xpos"			"85"
+		"xpos"			"120"
 		"ypos"			"c130"
 		"zpos"			"6"
 		"wide"			"100"
@@ -814,7 +813,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"EditLoadoutButton"
-		"xpos"			"85"
+		"xpos"			"120"
 		"ypos"			"c130"
 		"zpos"			"6"
 		"wide"			"100"

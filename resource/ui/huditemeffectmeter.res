@@ -7,7 +7,7 @@
 		"enabled"		"1"
 		"xpos"			"0"	[$WIN32]
 		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r33"	[$WIN32]
+		"ypos"			"r28"	[$WIN32]
 		"ypos_minmode"	"r54"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
@@ -82,6 +82,6 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"FGcolor" 		"22 166 43 255"
+		"fgcolor_override" 		"22 166 43 255"
 	}					
 }

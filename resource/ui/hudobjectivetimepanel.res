@@ -67,7 +67,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"FISHfingers15"
+		"font"			"Bikoreg15"
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
 	}			
@@ -96,7 +96,7 @@
 		"xpos"			"16"
 		"xpos_hidef"	"0"
 		"xpos_lodef"	"0"
-		"ypos"			"33"
+		"ypos"			"44"
 		"ypos_minmode"	"24"
 		"ypos_hidef"	"41"
 		"ypos_lodef"	"41"
@@ -125,7 +125,7 @@
 		"fieldName"		"OvertimeBG"
 		"xpos"			"16"	[$WIN32]
 		"xpos"			"11"	[$X360]
-		"ypos"			"31"
+		"ypos"			"42"
 		"ypos_hidef"	"-100"	//off-screen
 		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"

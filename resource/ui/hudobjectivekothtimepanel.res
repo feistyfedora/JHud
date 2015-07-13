@@ -1,5 +1,30 @@
 "Resource/UI/HudObjectiveKothTimePanel.res"
 {	
+
+	"BlueTeamIndicator"
+		{
+			"ControlName" 		"ImagePanel"
+			"fieldName" 		"BlueTeamIndicator"
+			"wide"				"78"
+			"tall"				"33"
+			"xpos"				"16"
+			"ypos"				"9"
+			"visible" 			"1"
+			"enabled" 			"1"
+			"fillcolor"			"59 75 204 175"
+		}
+	"RedTeamIndicator"
+		{
+			"ControlName" 		"ImagePanel"
+			"fieldName" 		"RedTeamIndicator"
+			"wide"				"78"
+			"tall"				"33"
+			"xpos"				"106"
+			"ypos"				"9"
+			"visible" 			"1"
+			"enabled" 			"1"
+			"fillcolor"			"204 75 59 175"
+		}
 	"BlueTimer"
 	{
 		"ControlName"		"CTFHudTimeStatus"
@@ -25,10 +50,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"HudFontMediumSmall"
-			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMedium"
-			"fgcolor"		"TanLight"
+			"font"			"FISHfingersreg25"
+			"fgcolor"		"0 0 0 255"
 			"xpos"			"23"
 			"xpos_minmode"	"39"
 			"xpos_hidef"	"114"
@@ -46,6 +69,7 @@
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
+			
 		}	
 	}
 
@@ -74,10 +98,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"HudFontMediumSmall"
-			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMedium"
-			"fgcolor"		"TanLight"
+			"font"			"FISHfingersreg25"
+			"fgcolor"		"0 0 0 255"
 			"xpos"			"23"
 			"xpos_minmode"	"39"
 			"xpos_hidef"	"114"
@@ -106,9 +128,9 @@
 		"ypos"				"9"
 		"ypos_minmode"		"-4"
 		"zpos"				"1"
-		"wide"				"78"
+		"wide"				"0"
 		"wide_minmode"		"37"
-		"tall"				"33"
+		"tall"				"0"
 		"tall_minmode"		"21"
 		"visible"			"0"
 		"enabled"			"1"

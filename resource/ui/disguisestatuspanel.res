@@ -28,10 +28,10 @@
 			"angles_z"		"0"
 		}
 	}
-	"DisguiseStatusTeamIndicator"
+	"DisguiseStatusBG"
 	{
 		"ControlName" 		"CTFImagePanel"
-		"fieldName" 		"DisguiseStatusTeamIndicator"
+		"fieldName" 		"DisguiseStatusBG"
 		"xpos"			"10"
 		"ypos"			"30"
 		"wide" 			"5"
@@ -41,8 +41,8 @@
 		"image"			"../hud/color_panel_brown"
 		"scaleImage"		"1"
 		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_blu"
-		"teambg_3"		"../hud/color_panel_red"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
@@ -50,10 +50,10 @@
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
 	}
-	"DisguiseStatusBG"
+	"DisguiseStatusBG2"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"		"DisguiseStatusBG"
+		"fieldName"		"DisguiseStatusBG2"
 		"xpos"			"10"
 		"xpos_minmode"			"10"
 		"ypos"			"30"
@@ -80,7 +80,7 @@
 		"ypos"			"31"
 		"ypos_minmode"	"51"
 		"zpos"			"1"
-		"wide"			"110"
+		"wide"			"130"
 		"tall"			"24"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -101,7 +101,7 @@
 		"ypos"			"45"
 		"ypos_minmode"	"58"
 		"zpos"			"1"
-		"wide"			"110"
+		"wide"			"150"
 		"tall"			"24"
 		"autoResize"		"0"
 		"pinCorner"		"0"

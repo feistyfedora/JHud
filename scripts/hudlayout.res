@@ -256,9 +256,10 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"285"
+		"ypos"		"295"
+		"zpos" 		"0"
 		"wide"	 	"252"
-		"tall"	 	"35"
+		"tall"	 	"40"
 		"tall_minmode"	 	"28"
 		"priority"	"40"
 		"priority_lodef"	"5"
@@ -277,6 +278,7 @@
 		"enabled" 	"1"
 		"xpos"		"c-126"
 		"ypos"		"350"
+		"zpos" 		"-5"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"tall_minmode"	 	"28"
@@ -493,18 +495,18 @@
 		"IconScale"	  "0.35"
 		"LineHeight"	  "16"
 		"LineSpacing"	  "4"
-		"CornerRadius"	  "3"
+		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"Default"
+		"TextFont"		"FISHFingersreg15"
 		
 		"TeamBlue"		"HUDBlueTeamSolid"
 		"TeamRed"		"HUDRedTeamSolid"
 		"IconColor"		"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
 
-		"BaseBackgroundColor"	"46 43 42 220"		[$WIN32]
-		"LocalBackgroundColor"	"245 229 196 200"	[$WIN32]
+		"BaseBackgroundColor"	"0 0 0 200"		[$WIN32]
+		"LocalBackgroundColor"	"255 255 255 200"	[$WIN32]
 		"BaseBackgroundColor"	"32 32 32 255"		[$X360]
 		"LocalBackgroundColor"	"0 0 0 255"		[$X360]
 	}
@@ -892,9 +894,9 @@
 		"fieldName"				"StatPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-133"
+		"xpos"					"9999"
 		"xpos_lodef"			"c-190"
-		"ypos"				"270"
+		"ypos"				"9999"
 		"ypos_lodef"			"250"
 		"wide"					"266"
 		"wide_lodef"			"400"
@@ -970,7 +972,7 @@
 		"enabled" 		"1"
 		"xpos"			"10"	[$WIN32]
 		"xpos"			"42"	[$X360]
-		"ypos"			"275"
+		"ypos"			"0"
 		"wide"	 		"320"
 		"tall"	 		"120"
 		"PaintBackgroundType"	"2"

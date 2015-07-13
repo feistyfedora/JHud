@@ -5,18 +5,19 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"TargetIDBG"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"5"
 		"zpos"			"-1"
 		"wide"			"252"
-		"tall"	 		"50"
+		"tall"	 		"15"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 175"
 
 	}
+	
 	"TargetIDBG_Spec_Blue"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Blue"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -37,7 +38,7 @@
 	}
 	"TargetIDBG_Spec_Red"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Red"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -88,7 +89,7 @@
 		"font_minmode"	"DefaultVerySmall"
 		"xpos"			"8"
 		"xpos_minmode"	"30"
-		"ypos"			"17"	[$WIN32]
+		"ypos"			"19"	[$WIN32]
 		"ypos_minmode"	"12"	[$WIN32]
 		"ypos"			"22"	[$X360]
 		"ypos_hidef"		"25"	[$X360]
@@ -103,7 +104,7 @@
 		"textAlignment"		"Left"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"fgcolor_override" 	"FISHfingersPink"
+		"fgcolor_override" 	"255 255 255 255"
 	}
 	"SpectatorGUIHealth"
 	{
@@ -111,7 +112,7 @@
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"3"
 		"xpos_minmode"	"0"
-		"ypos"			"2"
+		"ypos"			"-5"
 		"ypos_minmode"	"0"
 		"wide"			"32"
 		"tall"			"32"
@@ -119,7 +120,7 @@
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"10"
 		"HealthDeathWarning"	"0.49"
-		"TFFont"		"HudFontSmall"
+		"TFFont"		"Bikoreg15"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"HudOffWhite"
 	}	
@@ -128,7 +129,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
-		"xpos"			"40"
+		"xpos"			"25"
 		"xpos_minmode"	"30"
 		"ypos"			"20"
 		"ypos_minmode"	"19"
@@ -163,7 +164,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"MoveableSubPanel"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"5"
 		"zpos"			"-5"
 		"wide"			"32"
 		"tall"			"36"

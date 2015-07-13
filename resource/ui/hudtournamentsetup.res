@@ -2,10 +2,10 @@
 {
 	"HudTournamentSetupBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"HudTournamentSetupBG"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"2"
 		"zpos"			"-1"
 		"wide"			"180"
 		"tall"			"65"
@@ -13,21 +13,21 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_brown"
+		"fillcolor" 	"0 0 0 225"
 
 
 		"src_corner_height"	"23"				// pixels inside the image
 		"src_corner_width"	"23"
 		
-		"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"8"	
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
 
 	"TournamentSetupLabel"
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"FISHfingersreg20"
 		"xpos"			"8"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -40,18 +40,19 @@
 		"wrap"			"0"
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"west"
+		"fgcolor_override" "FISHfingersPink"
 	}
 
 	"TournamentTeamNameLabel"
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentTeamNameLabel"
-		"font"			"HudFontSmallest"
+		"font"			"FISHfingersreg15"
 		"xpos"			"67"
 		"ypos"			"28"
 		"zpos"			"1"
 		"wide"			"74"
-		"tall"			"15"
+		"tall"			"18"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -59,16 +60,17 @@
 		"wrap"			"0"
 		"labelText"		"#Tournament_TeamNamePanel"
 		"textAlignment"		"west"
+		"fgcolor_override" "FISHfingersPink"
 	}
 
 	"TournamentNameEdit"
 	{
 		"ControlName"		"TextEntry"
-		"fieldName"		"TournamentNameEdit"
+		"fieldName"		"FISHfingersreg15"
 		"xpos"		"8"
 		"ypos"		"27"
 		"wide"		"120"
-		"tall"		"16"
+		"tall"		"18"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -76,11 +78,11 @@
 		"tabPosition"		"0"
 		"textHidden"		"0"
 		"editable"		"1"
-		"maxchars"		"5"
+		"maxchars"		"10"
 		"NumericInputOnly"	"0"
 		"unicode"		"0"
 		"wrap"			"0"
-		"fgcolor_override"		"235 226 202 255"
+		"fgcolor_override"		"FISHFingersPink"
 		"bgcolor_override"	"0 0 0 255"
 		"labelText"		"%teamname%"
 		"textAlignment"		"west"
@@ -116,14 +118,15 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"Not Ready"
+		"labelText"		"Nay"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"teamnotready"
 		"default"		"1"
-		"font"			"HudFontSmallestBold"
+		"font"			"FISHfingersreg15"
 		"fgcolor"		"Red"
+		
 	}
 
 	"TournamentReadyButton"
@@ -139,13 +142,13 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"Ready"
+		"labelText"		"Yay"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"teamready" 
 		"default"		"1"
-		"font"			"HudFontSmallestBold"
+		"font"			"FISHfingersreg15"
 		"fgcolor"		"FooterBGBlack"
 	}
 }
