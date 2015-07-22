@@ -537,7 +537,7 @@
 		"fieldName"		"MapBG"
 		"xpos"			"260"
 		"ypos"			"390"
-		"wide"			"150"
+		"wide"			"235"
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
@@ -550,7 +550,7 @@
 		"xpos"			"260"
 		"ypos"			"390"	[$WIN32]
 		"zpos"			"3"
-		"wide"			"150"
+		"wide"			"235"
 		"wide_lodef"	"434"
 		"wide_hidef"	"464"
 		"tall"			"1"
