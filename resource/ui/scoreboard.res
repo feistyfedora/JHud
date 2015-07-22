@@ -520,7 +520,7 @@
 		"font"			"FISHfingersreg25"
 		"labelText"		"%mapname%"
 		"textAlignment"		"east"
-		"xpos"			"75"
+		"xpos"			"90"
 		"ypos"			"395"
 		"zpos"			"3"
 		"wide"			"245"
