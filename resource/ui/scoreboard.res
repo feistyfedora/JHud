@@ -32,7 +32,7 @@
 		"tall"			"190"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_blu" 
 		"scaleImage"		"1"
@@ -51,7 +51,7 @@
 		"tall"			"176"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"		"1"
 		"image"			"../hud/color_panel_red" 
@@ -75,7 +75,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 100"
+		"fillcolor"		"0 0 0 150"
 		
 		if_mvm
 		{
