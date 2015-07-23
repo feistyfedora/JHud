@@ -537,6 +537,7 @@
 		"fieldName"		"MapBG"
 		"xpos"			"260"
 		"ypos"			"390"
+		"zpos" 			"-1"
 		"wide"			"235"
 		"tall"			"60"
 		"visible"		"1"
