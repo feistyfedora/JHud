@@ -300,50 +300,68 @@
 		"font_lodef"	"DefaultVerySmall"
 		"wrap"			"1"
 	}
+	
 	"itempanel"
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"r270"
-		"ypos"			"300"
-		"zpos"			"1"
-		"wide"			"270"
-		"tall"			"180"
-		"visible"		"1"
-		"bgcolor_override"		"0 0 0 150"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"10"
+		"wide"			"190"
+		"tall"			"100"
+		"visible"		"0"
+		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
 		
-		"model_xpos"		"10"
-		"model_center_y"	"1"
+		"model_ypos"		"10"
+		"model_center_x"	"1"
 		"model_wide"		"90"
-		"model_tall"		"55"
+		"model_tall"		"60"
 		
-		"text_xpos"		"90"
+		"text_xpos"		"10"
+		"text_ypos"		"10"
 		"text_wide"		"170"
 		"text_center"	"1"
 		
-		"max_text_height"	"90"
-		"padding_height"	"40"
+		"max_text_height"	"100"
+		"padding_height"	"10"
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
 		
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
-			"use_item_rendertarget" "1"
+			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
+		}
+
+		"ItemBG"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"ItemBG"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-1"
+			"wide"			"200"
+			"tall"			"1000"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"35 35 35 255"
 		}
 		
 		"ItemLabel"
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"FISHFingersreg15"
+			"font"			"FISHfingersreg15"
 			"xpos"			"10"
 			"ypos"			"3"
 			"zpos"			"1"
-			"wide"			"270"
-			"tall"			"12"
+			"wide"			"185"
+			"tall"			"11"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -352,6 +370,21 @@
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
+		}
+	}
+		
+			"spectator_extras"
+		{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"spectator_extras"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		}
 	}	
 }
