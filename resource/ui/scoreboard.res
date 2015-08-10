@@ -89,7 +89,7 @@
 		"font"			"FISHfingersreg25" //"ScoreboardTeamNameLarge"
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"
-		"xpos"			"270" [$WIN32]
+		"xpos"			"285" [$WIN32]
 		"ypos"			"45"	[$WIN32]
 		"wide"			"140"
 		"tall"			"34"
@@ -106,7 +106,7 @@
 		"font"			"FISHfingersreg25" //"ScoreboardTeamNameLarge"
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"
-		"xpos"			"271" [$WIN32]
+		"xpos"			"286" [$WIN32]
 		"ypos"			"47"	[$WIN32]
 		"zpos"			"-1"
 		"wide"			"140"
@@ -176,7 +176,7 @@
 		"font"			"FISHfingersreg25"
 		"labelText"		"%redteamname%"
 		"textAlignment"		"east"
-		"xpos"			"155" [$WIN32]
+		"xpos"			"170" [$WIN32]
 		"ypos"			"217"	[$WIN32]
 		"wide"			"140"
 		"tall"			"34"
@@ -193,7 +193,7 @@
 		"font"			"FISHfingersreg25"
 		"labelText"		"%redteamname%"
 		"textAlignment"		"east"
-		"xpos"			"156" [$WIN32]
+		"xpos"			"171" [$WIN32]
 		"ypos"			"219"		[$WIN32]
 		"zpos"			"-1"
 		"wide"			"140"
@@ -523,7 +523,7 @@
 		"xpos"			"265"
 		"ypos"			"395"
 		"zpos"			"3"
-		"wide"			"95"
+		"wide"			"100"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -1081,11 +1081,11 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"HealingLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FISHfingersreg15"
 			"labelText"		"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"		"east"
-			"xpos"			"40"	[$WIN32]
-			"ypos"			"15"	[$WIN32]
+			"xpos"			"110"	[$WIN32]
+			"ypos"			"28"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"95"	[$WIN32]
 			"tall"			"20"
@@ -1149,11 +1149,11 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Healing"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FISHfingersreg15"
 			"labelText"		"%healing%"
 			"textAlignment"		"west"
-			"xpos"			"145"	[$WIN32]
-			"ypos"			"15"	[$WIN32]
+			"xpos"			"215"	[$WIN32]
+			"ypos"			"28"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1322,8 +1322,8 @@
 			"font"			"FISHfingersreg15"
 			"labelText"		"#TF_Scoreboard_Damage"
 			"textAlignment"	"east"
-			"xpos"			"112"	
-			"ypos"			"30"	
+			"xpos"			"114"	
+			"ypos"			"28"	
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
@@ -1340,7 +1340,7 @@
 			"labelText"		"%damage%"
 			"textAlignment"	"east"		
 			"xpos"			"195"	
-			"ypos"			"30"
+			"ypos"			"28"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
