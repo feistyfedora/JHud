@@ -333,21 +333,21 @@
 		{
 			"fieldName"		"itemmodelpanel"
 			"use_item_rendertarget" "0"
-			"useparentbg"		"1"
+			"useparentbg"		"0"
 		}
 
 		"ItemBG"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"ItemBG"
-			"xpos"			"0"
-			"ypos"			"0"
+			"xpos"			"9999"
+			"ypos"			"9999"
 			"zpos"			"-1"
 			"wide"			"200"
 			"tall"			"1000"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"fillcolor"		"35 35 35 255"
 		}

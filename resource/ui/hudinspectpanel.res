@@ -4,8 +4,8 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"10"
 		"wide"			"190"
 		"tall"			"100"
@@ -39,14 +39,14 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"ItemBG"
-			"xpos"			"0"
-			"ypos"			"0"
+			"xpos"			"9999"
+			"ypos"			"9999"
 			"zpos"			"-1"
 			"wide"			"200"
 			"tall"			"1000"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"fillcolor"		"Hudblack"
 		}
